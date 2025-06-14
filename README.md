@@ -10,3 +10,4 @@
 ```powershell
 $env:NODE_OPTIONS="--max-old-space-size=4096"; npx prettier --write dist/main.bundle.js; Remove-Item Env:NODE_OPTIONS
 ```
+
