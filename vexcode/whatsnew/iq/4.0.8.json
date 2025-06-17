@@ -1,0 +1,13 @@
+{
+  "forVersion": "4.0.8",
+  "timestamp": 1723477052,
+  "data": {
+    "en": {
+      "blurb1": {
+        "img": "appicons/iq-app.png",
+        "content": "VEXcode 4.0 is here with exciting new features and improvements. Find out more in the VEX Library.",
+        "url": "https://kb.vex.com/hc/en-us/articles/29278709186708"
+      }
+    }
+  }
+}
