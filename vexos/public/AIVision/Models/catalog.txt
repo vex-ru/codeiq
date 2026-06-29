@@ -1,0 +1,156 @@
+{
+    "lastUpdated": "2025-08-18",
+    "models": [
+        {
+            "name": "Classroom Objects",
+            "version": 1, 
+            "modelID": 0,
+            "build": "20240506.10.23.50",
+            "file": "MODEL_AIV_0_0_0_1.bin",
+            "classnames": {
+                "count": 9,
+                "items": [
+                    { "index": 0, "name": "Ball(Blue)" },
+                    { "index": 1, "name": "Ball(Green)" },
+                    { "index": 2, "name": "Ball(Red)" },
+                    { "index": 3, "name": "Ring(Blue)" },
+                    { "index": 4, "name": "Ring(Green)" },
+                    { "index": 5, "name": "Ring(Red)" },
+                    { "index": 6, "name": "Cube(Blue)" },
+                    { "index": 7, "name": "Cube(Green)" },
+                    { "index": 8, "name": "Cube(Red)" }
+                ]
+            },
+            "vexcode":{
+                "aiClassificationIDs" :{
+                    "blocks" :{
+                        "enumname":"N/A",
+                        "members":[
+                            { "name":"BlueBall", "value": 0 },
+                            { "name":"GreenBall", "value": 1 },
+                            { "name":"RedBall", "value": 2 },
+                            { "name":"BlueRing", "value": 3 },
+                            { "name":"GreenRing", "value": 4 },
+                            { "name":"RedRing", "value": 5  },
+                            { "name":"BlueCube", "value": 6 },
+                            { "name":"GreenCube", "value": 7 },
+                            { "name":"RedCube", "value": 8  }
+                        ]
+                    },
+                    "python":{
+                        "enumname":"ClassroomElements",
+                        "members":[
+                            { "name":"BLUE_BALL", "value": 0 },
+                            { "name":"GREEN_BALL", "value": 1 },
+                            { "name":"RED_BALL", "value": 2 },
+                            { "name":"BLUE_RING", "value": 3 },
+                            { "name":"GREEN_RING", "value": 4 },
+                            { "name":"RED_RING", "value": 5 },
+                            { "name":"BLUE_CUBE", "value": 6 },
+                            { "name":"GREEN_CUBE", "value": 7 },
+                            { "name":"RED_CUBE", "value": 8 }
+                        ]
+                    },
+                    "cpp":{
+                        "enumname":"classroomElements",
+                        "members":[
+                            { "name":"blueBall", "value": 0 },
+                            { "name":"greenBall", "value": 1 },
+                            { "name":"redBall", "value": 2 },
+                            { "name":"blueRing", "value": 3 },
+                            { "name":"greenRing", "value": 4 },
+                            { "name":"redRing", "value": 5 },
+                            { "name":"blueCube", "value": 6 },
+                            { "name":"greenCube", "value": 7 },
+                            { "name":"redCube", "value": 8 }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "2024-2025 High Stakes",
+            "version": 1,
+            "modelID": 16,
+            "build": "20240506.10.23.50",
+            "file": "MODEL_AIV_16_0_0_1.bin",
+            "classnames": {
+                "count": 3,
+                "items": [
+                    { "index": 0, "name": "MobileGoal" },
+                    { "index": 1, "name": "RedRing" },
+                    { "index": 2, "name": "BlueRing" }
+                ]
+            },
+            "vexcode":{
+                "aiClassificationIDs" :{
+                    "blocks" :{
+                        "enumname":"N/A",
+                        "members":[
+                            { "name":"MobileGoal", "value": 0 },
+                            { "name":"RedRing", "value": 1 },
+                            { "name":"BlueRing", "value": 2 }
+                        ]
+                    },
+                    "python":{
+                        "enumname":"GameElements",
+                        "members":[
+                            { "name":"MOBILE_GOAL", "value": 0 },
+                            { "name":"RED_RING", "value": 1 },
+                            { "name":"BLUE_RING", "value": 2 }
+                        ]
+                    },
+                    "cpp":{
+                        "enumname":"gameElements",
+                        "members":[
+                            { "name":"mobileGoal", "value": 0 },
+                            { "name":"redRing", "value": 1 },
+                            { "name":"blueRing", "value": 2 }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "2025-2026 Push Back",
+            "version": 1,
+            "modelID": 17,
+            "build": "20250729.22.54-v1.0.0.10",
+            "file": "MODEL_AIV_17_0_0_1.bin",
+            "classnames": {
+                "count": 3,
+                "items": [
+                    { "index": 0, "name": "BlueBlock" },
+                    { "index": 1, "name": "RedBlock" }
+                ]
+            },
+            "vexcode":{
+                "aiClassificationIDs" :{
+                    "blocks" :{
+                        "enumname":"N/A",
+                        "members":[
+                            { "name":"BlueBlock", "value": 0 },
+                            { "name":"RedBlock", "value": 1 }
+                           
+                        ]
+                    },
+                    "python":{
+                        "enumname":"GameElementsPushBack",
+                        "members":[
+                            { "name":"BLUE_BLOCK", "value": 0 },
+                            { "name":"RED_BLOCK", "value": 1 }
+
+                        ]
+                    },
+                    "cpp":{
+                        "enumname":"gameElementsPushBack",
+                        "members":[
+                            { "name":"blueBlock", "value": 0 },
+                            { "name":"redBlock", "value": 1 }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

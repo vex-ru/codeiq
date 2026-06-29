@@ -1,0 +1,119 @@
+{
+    "lastUpdated": "2025-10-06",
+    "models": [
+        {
+            "name": "Classroom Objects",
+            "version": "1",
+            "modelID": "0",
+            "build": "20240506.10.23.50",
+            "file": "MODEL_AIV_0_0_0_1.bin",
+            "classnames": {
+                "count": 9,
+                "items": [
+                    { "index": 0, "name": "Ball(Blue)" },
+                    { "index": 1, "name": "Ball(Green)" },
+                    { "index": 2, "name": "Ball(Red)" },
+                    { "index": 3, "name": "Ring(Blue)" },
+                    { "index": 4, "name": "Ring(Green)" },
+                    { "index": 5, "name": "Ring(Red)" },
+                    { "index": 6, "name": "Cube(Blue)" },
+                    { "index": 7, "name": "Cube(Green)" },
+                    { "index": 8, "name": "Cube(Red)" }
+                ]
+            },
+            "vexcode":{
+                "aiClassificationIDs" :{
+                    "blocks" :{
+                        "enumname":"N/A",
+                        "members":[
+                            { "name":"BlueBall", "value": 0 },
+                            { "name":"GreenBall", "value": 1 },
+                            { "name":"RedBall", "value": 2 },
+                            { "name":"BlueRing", "value": 3 },
+                            { "name":"GreenRing", "value": 4 },
+                            { "name":"RedRing", "value": 5  },
+                            { "name":"BlueCube", "value": 6 },
+                            { "name":"GreenCube", "value": 7 },
+                            { "name":"RedCube", "value": 8  }
+                        ]
+                    },
+                    "python":{
+                        "enumname":"ClassroomElements",
+                        "members":[
+                            { "name":"BLUE_BALL", "value": 0 },
+                            { "name":"GREEN_BALL", "value": 1 },
+                            { "name":"RED_BALL", "value": 2 },
+                            { "name":"BLUE_RING", "value": 3 },
+                            { "name":"GREEN_RING", "value": 4 },
+                            { "name":"RED_RING", "value": 5 },
+                            { "name":"BLUE_CUBE", "value": 6 },
+                            { "name":"GREEN_CUBE", "value": 7 },
+                            { "name":"RED_CUBE", "value": 8 }
+                        ]
+                    },
+                    "cpp":{
+                        "enumname":"classroomElements",
+                        "members":[
+                            { "name":"blueBall", "value": 0 },
+                            { "name":"greenBall", "value": 1 },
+                            { "name":"redBall", "value": 2 },
+                            { "name":"blueRing", "value": 3 },
+                            { "name":"greenRing", "value": 4 },
+                            { "name":"redRing", "value": 5 },
+                            { "name":"blueCube", "value": 6 },
+                            { "name":"greenCube", "value": 7 },
+                            { "name":"redCube", "value": 8 }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "2025-2026 Mix & Match",
+            "version": "1",
+            "modelID": "32",
+            "build": "20250920.10.34(1.0.0.b8)",
+            "file": "MODEL_AIVIQ_32_0_0_1.bin",
+            "classnames": {
+                "count": 4,
+                "items": [
+                    { "index": 0, "name": "Beam" },
+                    { "index": 1, "name": "BluePin" },
+                    { "index": 2, "name": "RedPin" },
+                    { "index": 3, "name": "OrangePin" }
+                ]
+            },
+            "vexcode":{
+                "aiClassificationIDs" :{
+                    "blocks" :{
+                        "enumname":"N/A",
+                        "members":[
+                            { "name":"Beam", "value": 0 },
+                            { "name":"BluePin", "value": 1 },
+                            { "name":"RedPin", "value": 2 },
+                            { "name":"OrangePin", "value": 3 }
+                        ]
+                    },
+                    "python":{
+                        "enumname":"GameElementsMixAndMatch",
+                        "members":[
+                            { "name":"BEAM", "value": 0 },
+                            { "name":"BLUE_PIN", "value": 1 },
+                            { "name":"RED_PIN", "value": 2 },
+                            { "name":"ORANGE_PIN", "value": 3 }
+                        ]
+                    },
+                    "cpp":{
+                        "enumname":"gameElementsMixAndMatch",
+                        "members":[
+                            { "name":"beam", "value": 0 },
+                            { "name":"bluePin", "value": 1 },
+                            { "name":"redPin", "value": 2 },
+                            { "name":"orangePin", "value": 3 }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
